@@ -47,6 +47,9 @@ p {
     margin-bottom: 10px;
     width: 60%;
   }
+  .title {
+    font-size: 40px !important;
+  }
 }
 
 .icon-block {
