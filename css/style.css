@@ -463,3 +463,11 @@ li a:hover{
   margin-right: 0.7em;
   font-size: 18px;
 }
+
+footer {
+  background: rgba(0,0,0,0.6);
+}
+
+btn {
+  background: #fff;
+}
