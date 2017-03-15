@@ -1,37 +1,43 @@
-(function($){
-  $(function(){
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-  });
-})(jQuery);
+$( document ).ready(function(){
+  $(".button-collapse").sideNav();
 
-$(function() {
-  $('.material-card > .mc-btn-action').click(function () {
-    var card = $(this).parent('.material-card');
-    var icon = $(this).children('i');
-    icon.addClass('fa-spin-fast');
-    if (card.hasClass('mc-active')) {
-      card.removeClass('mc-active');
-      window.setTimeout(function() {
+
+  (function($){
+    $(function(){
+      $('.button-collapse').sideNav();
+      $('.parallax').parallax();
+    });
+  })(jQuery);
+
+  $(function() {
+    $('.material-card > .mc-btn-action').click(function () {
+      var card = $(this).parent('.material-card');
+      var icon = $(this).children('i');
+      icon.addClass('fa-spin-fast');
+      if (card.hasClass('mc-active')) {
+        card.removeClass('mc-active');
+        window.setTimeout(function() {
+            icon
+              .removeClass('fa-arrow-left')
+              .removeClass('fa-spin-fast')
+              .addClass('fa-bars');
+        }, 800);
+      } else {
+        card.addClass('mc-active');
+        window.setTimeout(function() {
           icon
-            .removeClass('fa-arrow-left')
+            .removeClass('fa-bars')
             .removeClass('fa-spin-fast')
-            .addClass('fa-bars');
-      }, 800);
-    } else {
-      card.addClass('mc-active');
-      window.setTimeout(function() {
-        icon
-          .removeClass('fa-bars')
-          .removeClass('fa-spin-fast')
-          .addClass('fa-arrow-left');
-      }, 800);
-    }
+            .addClass('fa-arrow-left');
+        }, 800);
+      }
+    });
   });
-});
 
-function playSound () {
-  document.getElementById('audio').play();
-  $('.hi').hide();
-  $('.ok').hide();
-}
+  function playSound () {
+    document.getElementById('audio').play();
+    $('.hi').hide();
+    $('.ok').hide();
+  }
+
+});

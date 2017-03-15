@@ -4,17 +4,42 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <title>Natalia's Portfolio Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
-    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/style.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
-    <div id="index-banner" class="parallax-container avatar">
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Home</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="Resume.pdf">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/nataliapolishchuk">LinkedIn</a></li>
+            <li><a href="https://github.com/natapoli90">GitHub</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="Resume.pdf">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/nataliapolishchuk">LinkedIn</a></li>
+            <li><a href="https://github.com/natapoli90">GitHub</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div>
+      <img class="responsive-img" src="Main.png">
+    </div>
+      <!--
       <div class="container">
         <div class="row center">
           <h2 class="header center title">Natalia Polishchuk</h2>
@@ -32,7 +57,7 @@
           </audio>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <h4 class="center">Full Stack Personal Projects</h4><br />
     <div class="row active-with-click">
@@ -42,7 +67,7 @@
         <strong><i class="fa fa-fw fa-laptop"></i>Ruby on Rails</strong></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="1.png">
+            <img class="responsive-img" src="1.png">
           </div>
           <div class="mc-description">
             App allows users to get a quote for car repair in 1 easy step then be connected to the shops to get the best price.
@@ -62,7 +87,7 @@
         <strong><i class="fa fa-fw fa-laptop"></i>Ruby on Rails</strong></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive laptop" src="2.png">
+            <img class="responsive-img laptop" src="2.png">
           </div>
           <div class="mc-description">
             This is a social networking tool that connects General Assembly alumni across all immersive courses and all locations to foster collaboration.
@@ -82,7 +107,7 @@
         <strong><i class="fa fa-fw fa-laptop"></i>Ruby on Rails</strong></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive laptop" src="3.png">
+            <img class="responsive-img laptop" src="3.png">
           </div>
           <div class="mc-description">
             App allows travelers to share stories from different vacation destinations.
@@ -102,7 +127,7 @@
         <strong><i class="fa fa-fw fa-laptop"></i>Javascript, MEAN</strong></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive laptop" src="4.png">
+            <img class="responsive-img laptop" src="4.png">
           </div>
           <div class="mc-description">
             This app allows people to share posts about amazing art installations from “Burning Man” festival, that takes place at Black Rock Desert in Nevada.
@@ -122,7 +147,7 @@
         <strong><i class="fa fa-fw fa-laptop"></i>Javascript</strong></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive laptop" src="5.png">
+            <img class="responsive-img laptop" src="5.png">
           </div>
           <div class="mc-description">
             App is created in order to help people track calories throughout the day and calculate how much they need to workout to burn this calories.
@@ -142,7 +167,7 @@
         <strong><i class="fa fa-fw fa-laptop"></i>Javascript</strong></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive laptop" src="6.png">
+            <img class="responsive-img laptop" src="6.png">
           </div>
           <div class="mc-description">
             The app is a 8 weeks gym workout plan for woman. Build gym workouts API, consumed it using AJAX and rendered results to the page using jQuery.
@@ -164,7 +189,7 @@
         <h2><span>Where To Repair</span></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="WTR.png">
+            <img class="responsive-img" src="WTR.png">
           </div>
         </div>
         </article>
@@ -175,7 +200,7 @@
         <h2><span>General Assembláge</span></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="general-assemblage.png">
+            <img class="responsive-img" src="general-assemblage.png">
           </div>
         </div>
         </article>
@@ -186,7 +211,7 @@
         <h2><span>Vagabond</span></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="vagabond.png">
+            <img class="responsive-img" src="vagabond.png">
           </div>
         </div>
         </article>
@@ -200,7 +225,7 @@
         <h2><span>Responsive blog page (designed logo in Photoshop + coded in Jade, CSS, JS)</span></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="blog.png">
+            <img class="responsive-img" src="blog.png">
           </div>
         </div>
         </article>
@@ -211,7 +236,7 @@
         <h2><span>Designed mockup for the new generation developer's console editor view</span></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="editor.png">
+            <img class="responsive-img" src="editor.png">
           </div>
         </div>
         </article>
@@ -222,7 +247,7 @@
         <h2><span>New player UI (redesigned and coded buttons layout, added carousel)</span></h2>
         <div class="mc-content">
           <div class="img-container">
-            <img class="img-responsive" src="player.png">
+            <img class="responsive-img" src="player.png">
           </div>
         </div>
         </article>
@@ -260,8 +285,8 @@
       </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="js/init.js"></script>
   </body>
 </html>
