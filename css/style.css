@@ -387,7 +387,7 @@ p {
 }
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-  background: #f2f2f2;
+  background: #fff;
 }
 
 h1, h2, h3 {
@@ -459,4 +459,14 @@ li a:hover{
 
 .button-collapse {
     color: #0070c9;
+}
+
+.blue-link {
+
+}
+
+.more{
+
+    margin-right: 0.7em;
+    font-size: 18px;
 }
