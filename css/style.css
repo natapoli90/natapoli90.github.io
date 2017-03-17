@@ -450,9 +450,8 @@ li a:hover{
   color: #1e8bce;
   font-size: 22px;
 }
-.intro-links a:hover{
+.intro-links a:hover, h6{
   color: #1e8bce;
-  text-decoration: underline;
 }
 
 .button-collapse {

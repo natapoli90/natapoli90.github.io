@@ -5,8 +5,6 @@ $( document ).ready(function(){
   duration: 1200,
 })
 
-
-
   (function($){
     $(function(){
       $('.button-collapse').sideNav();
