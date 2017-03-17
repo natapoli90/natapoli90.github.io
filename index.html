@@ -7,6 +7,8 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
     <link rel="stylesheet" href="css/style.css">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -43,7 +45,7 @@
     </div>
 
     <header>
-      <img class="responsive-img" src="img/Main.jpg">
+      <img class="responsive-img" data-aos="zoom-in" src="img/Main.jpg">
     </header>
 
     <a name="A"></a>
@@ -54,7 +56,7 @@
           <img class="responsive-img" src="img/where-to-repair.png">
         </div>
         <div class="col s12 l6">
-          <div class="container">
+          <div class="container" data-aos="fade-up">
             <br /><br /><br />
             <h5>Where To Repair</h5>
             <p>App allows users to get a quote for car repair in 1 easy step then be connected to the shops to get the best price.</p>
@@ -75,7 +77,7 @@
           <img class="responsive-img" src="img/general-assemblage.png">
         </div>
         <div class="col s12 l6">
-          <div class="container">
+          <div class="container"  data-aos="fade-up">
             <br /><br /><br />
             <h5>General Assembláge</h5>
             <p>This is a social networking tool that connects General Assembly alumni across all immersive courses and all locations to foster collaboration. Group project.</p>
@@ -95,7 +97,7 @@
           <img class="responsive-img" src="img/vagabond.png">
         </div>
         <div class="col s12 l6">
-          <div class="container">
+          <div class="container" data-aos="fade-up">
             <br /><br /><br />
             <h5>Vagabond</h5>
             <p>App allows travelers to share stories from different vacation destinations. Group project.</p>
@@ -115,7 +117,7 @@
           <img class="responsive-img" src="img/art-of-playa.png">
         </div>
         <div class="col s12 l6">
-          <div class="container">
+          <div class="container" data-aos="fade-up">
             <br /><br /><br />
             <h5>Art of Playa</h5>
             <p>This app allows people to share posts about amazing art installations from “Burning Man” festival.</p>
@@ -138,7 +140,7 @@
           <img class="responsive-img" src="img/train-or-gain.png">
         </div>
         <div class="col s12 l6">
-          <div class="container">
+          <div class="container" data-aos="fade-up">
             <br /><br /><br />
             <h5>Train or Gain</h5>
             <p>App is created in order to help people track calories throughout the day and calculate how much they need to workout to burn this calories.</p>
@@ -161,7 +163,7 @@
           <img class="responsive-img" src="img/wonder-woman.png">
         </div>
         <div class="col s12 l6">
-          <div class="container">
+          <div class="container" data-aos="fade-up">
             <br /><br /><br />
             <h5>Wonder Women</h5>
             <p>The app is a 8 weeks gym workout plan for woman. Build gym workouts API, consumed it using AJAX and rendered results to the page using jQuery.</p>
@@ -183,18 +185,18 @@
     <div class="col s12">
       <h5 class="center-align">Where To Repair<br />
       <a class="more" href="https://github.com/natapoli90/where-to-repair">See full project<sub><i class="material-icons" style="font-size:18px;">&#xE315;</i></sub></a></h5>
-      <img class="materialboxed wire-1 center" src="img/WTR-wire.png">
+      <img class="materialboxed wire-1 center" data-aos="fade-up" src="img/WTR-wire.png">
     </div><br /><br />
     <div class="row">
       <div class="col s12 l6">
         <h5 class="center-align">General Assembláge<br />
         <a class="more" href="https://github.com/natapoli90/general-assemblage">See full project<sub><i class="material-icons" style="font-size:18px;">&#xE315;</i></sub></a></h5>
-        <img class="materialboxed wire-2 center" src="img/general-wire.png">
+        <img class="materialboxed wire-2 center" data-aos="fade-up" src="img/general-wire.png">
       </div>
       <div class="col s12 l6"><br /><br />
         <h5 class="center-align">Vagabond<br />
         <a class="more" href="https://github.com/natapoli90/vagabond">See full project<sub><i class="material-icons" style="font-size:18px;">&#xE315;</i></sub></a></h5>
-        <img class="materialboxed wire-3 center" src="img/vagabond-wire.png">
+        <img class="materialboxed wire-3 center" data-aos="fade-up" src="img/vagabond-wire.png">
       </div>
     </div>
 
@@ -229,7 +231,7 @@
       <div class="col s12 m5 l5">
         <img class="responsive-img" src="img/Me.jpg">
       </div>
-      <div class="col s12 m7 l7">
+      <div class="col s12 m7 l7" data-aos="fade-up">
         <h3>About Me</h3><p></p>
         <p>My name is Natalia and I'm a​ ​Front End Web Developer with a passion for​ ​​UX/ UI design. I can roll out rock solid front-end experiences under strict timeframes​ ​from building wireframes and user stories to deploying a project to Heroku. I'm comfortable diving into unfamiliar problems and solving them regardless. I love to learn!<p>
         <ul>
@@ -348,6 +350,7 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js'></script>
     <script src="js/init.js"></script>
   </body>
 </html>

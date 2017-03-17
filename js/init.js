@@ -1,6 +1,11 @@
 $( document ).ready(function(){
   $(".button-collapse").sideNav();
   $('.materialboxed').materialbox();
+  AOS.init({
+  duration: 1200,
+})
+
+
 
   (function($){
     $(function(){
