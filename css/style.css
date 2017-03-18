@@ -467,7 +467,7 @@ footer {
   background: rgba(0,0,0,0.6);
 }
 
-btn {
+btn, .white {
   background: #fff;
 }
 
@@ -487,4 +487,8 @@ btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.grabit {
+  background: #dadfe3;
 }
