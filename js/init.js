@@ -3,7 +3,7 @@ $( document ).ready(function(){
   $('.materialboxed').materialbox();
   AOS.init({
   duration: 1200,
-})
+});
 
   (function($){
     $(function(){
@@ -36,11 +36,5 @@ $( document ).ready(function(){
       }
     });
   });
-
-  function playSound () {
-    document.getElementById('audio').play();
-    $('.hi').hide();
-    $('.ok').hide();
-  }
 
 });
