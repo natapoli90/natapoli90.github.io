@@ -37,10 +37,4 @@ $( document ).ready(function(){
     });
   });
 
-  function playSound () {
-    document.getElementById('audio').play();
-    $('.hi').hide();
-    $('.ok').hide();
-  }
-
 });

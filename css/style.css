@@ -464,7 +464,7 @@ li a:hover{
 }
 
 footer {
-  background: rgba(0,0,0,0.6);
+  background: #ADADAD !important;
 }
 
 btn, .white {
@@ -491,6 +491,10 @@ btn, .white {
 
 .grabit {
   background: #dadfe3;
+}
+
+.before-after {
+  background: #F1F1F1;
 }
 
 .new {
