@@ -6,10 +6,6 @@ p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: #26a69a;
-}
-
 .large {
   min-width: 80%;
   min-height: 100%;
@@ -52,7 +48,7 @@ p {
     margin-bottom: 10px;
     width: 60%;
   }
-  .title {
+  .title, .subtitle {
     font-size: 40px !important;
   }
 }
@@ -408,14 +404,6 @@ h1, h2, h3 {
   margin-left: 10%;
 }
 
-.title {
-  font-family: 'The Black Box', sans-serif;
-  font-size: 110px;
-  color: white;
-  background-color: black;
-  text-transform: uppercase;
-}
-
 .sign {
   font-family: 'Great Vibes', cursive;
   font-size: 35px;
@@ -435,7 +423,7 @@ h1, h2, h3 {
 }
 
 nav {
-  background: rgba(0,0,0,0.6);
+  background: transparent;
   text-align: center;
   padding: 2px;
   width: 100%;
@@ -457,10 +445,6 @@ li a:hover{
 }
 .intro-links a:hover, h6{
   color: #1e8bce;
-}
-
-.button-collapse {
-  color: #fff;
 }
 
 .more{
@@ -504,4 +488,102 @@ btn, .white {
 
 .new {
   color: red;
+}
+
+/* NEW STYLES */
+header img {
+  margin-top: -64px;
+}
+
+nav ul a,
+.button-collapse {
+  color: #000;
+}
+
+nav .nav-wrapper {
+  margin: 0 30px;
+}
+
+.recent-work .grey-scale {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  -webkit-filter: grayscale(1);
+  -khtml-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all .3s ease;
+}
+
+.recent-work .grey-scale {
+  -webkit-filter: grayscale(0);
+  -khtml-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+#mason-jar {
+  background-image: url("mason-jar.png");
+}
+
+nav ul a:hover {
+  background: transparent;
+}
+
+li a:hover {
+    color: #757575;
+}
+
+.title-wrap {
+    background: #e4e4e4;
+    padding: 20px 0;
+    display: block;
+}
+
+
+@media screen and (min-width: 992px) {
+  .title-wrap {
+      display: none;
+    }
+}
+
+.title {
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    margin:  0;
+}
+
+
+.header-wrap-small{
+  display: block;
+}
+
+.header-wrap {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header-wrap-small{
+      display: none;
+  }
+
+  .header-wrap {
+    display: block;
+  }
+}
+
+.responsive-img {
+  width: 100%;
 }
