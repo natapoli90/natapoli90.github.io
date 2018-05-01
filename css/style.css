@@ -434,9 +434,8 @@ li a{
   font-size: 16px;
   font-family: helvetica, arial;
   text-decoration: none;
-  padding: 20px;
 }
-li a:hover{
+li:hover a{
   color: #cecece;
 }
 .intro-links a{
@@ -586,4 +585,50 @@ li a:hover {
 
 .responsive-img {
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrap img {
+    min-height: 600px;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+@media screen and (min-width: 1140px) {
+  .recent-work .overlay {
+      -webkit-filter: grayscale(1);
+      -khtml-filter: grayscale(1);
+      -moz-filter: grayscale(1);
+      -ms-filter: grayscale(1);
+      -o-filter: grayscale(1);
+      filter: grayscale(1);
+      transition: all .3s ease;
+  }
+
+  .recent-work a:hover .overlay {
+      -webkit-filter: grayscale(0);
+      -khtml-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      -ms-filter: grayscale(0);
+      -o-filter: grayscale(0);
+      filter: grayscale(0);
+      transition: all .3s ease;
+  }
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay .chip {
+    position:  absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.recent-work p {
+    margin-top: 0;
 }
