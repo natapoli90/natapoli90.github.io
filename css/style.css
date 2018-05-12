@@ -503,6 +503,10 @@ nav .nav-wrapper {
   margin: 0 30px;
 }
 
+.recent-work {
+  background-color: #fafafa;
+}
+
 .recent-work .grey-scale {
   background-position: center;
   background-size: cover;
@@ -631,4 +635,13 @@ li a:hover {
 
 .recent-work p {
     margin-top: 0;
+    display: inline-block;
+    float: right;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 80% !important;
+    display: block;
+    margin: 0 auto;
 }
