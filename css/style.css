@@ -505,8 +505,9 @@ nav .nav-wrapper {
 
 .recent-work {
   background-color: #fafafa;
+  padding: 10px 0;
 }
-
+/*
 .recent-work .grey-scale {
   background-position: center;
   background-size: cover;
@@ -529,11 +530,7 @@ nav .nav-wrapper {
   -ms-filter: grayscale(0);
   -o-filter: grayscale(0);
   filter: grayscale(0);
-}
-
-#mason-jar {
-  background-image: url("mason-jar.png");
-}
+}*/
 
 nav ul a:hover {
   background: transparent;
@@ -601,7 +598,7 @@ li a:hover {
   width: 100%;
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .recent-work .overlay {
       -webkit-filter: grayscale(1);
       -khtml-filter: grayscale(1);
@@ -627,16 +624,12 @@ li a:hover {
     position: relative;
 }
 
-.overlay .chip {
-    position:  absolute;
-    top: 5px;
-    left: 5px;
+.zoom-in:hover {
+    transform: scale(1.1);
 }
 
 .recent-work p {
-    margin-top: 0;
-    display: inline-block;
-    float: right;
+    margin-bottom: -5px;
 }
 
 .avatar {
@@ -644,4 +637,18 @@ li a:hover {
     max-width: 80% !important;
     display: block;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .recent-work p,
+  .recent-work .chip {
+      font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .recent-work p,
+  .recent-work .chip {
+      font-size: 18px;
+  }
 }
