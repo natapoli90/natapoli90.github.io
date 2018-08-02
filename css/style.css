@@ -652,3 +652,19 @@ li a:hover {
       font-size: 18px;
   }
 }
+
+#design {
+  position: relative;
+}
+
+#design img {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .fixed-bottom {
+    position: absolute;
+    right: 0 !important;
+    bottom: 0;
+  }
+}
