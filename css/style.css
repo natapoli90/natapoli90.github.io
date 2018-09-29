@@ -477,6 +477,10 @@ btn, .white {
     margin-right: auto;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .grabit {
   background: #dadfe3;
 }
