@@ -570,12 +570,13 @@ li a:hover {
 }
 
 
-.header-wrap-small{
-  display: block;
-}
 
 .header-wrap {
-    display: none;
+    margin-top: 64px;
+}
+
+/*.header-wrap-small{
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -586,17 +587,17 @@ li a:hover {
   .header-wrap {
     display: block;
   }
-}
+}*/
 
 .responsive-img {
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   .header-wrap img {
     min-height: 600px;
   }
-}
+}*/
 
 .full-width {
   width: 100%;
