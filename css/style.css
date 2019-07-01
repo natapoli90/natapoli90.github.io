@@ -658,11 +658,11 @@ li a:hover {
   }
 }
 
-#design {
+.design {
   position: relative;
 }
 
-#design img {
+.design img {
   margin-bottom: 20px;
 }
 
